@@ -37,10 +37,10 @@ if(isset($_POST['reply']) && $_POST['reply'] == true) {
     $message = sanitize_input($message);
     $reply_to = sanitize_input($reply_to);
     
-    $email = mysqli_real_escape_string($db, $_POST['email']);
-    $name = mysqli_real_escape_string($db, $_POST['name']);
-    $message = mysqli_real_escape_string($db, $_POST['message']);
-    $reply_to = mysqli_real_escape_string($db, $_POST['id']);
+    $email = mysqli_real_escape_string($db, $email);
+    $name = mysqli_real_escape_string($db, $name);
+    $message = mysqli_real_escape_string($db, $message);
+    $reply_to = mysqli_real_escape_string($db, $reply_to);
 
     $comment = new Comment($email, $name, $message, $reply_to);
     $id = $comment->addReply();
