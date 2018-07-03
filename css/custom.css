@@ -1,0 +1,67 @@
+.card {
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: #e9ecef;
+}
+
+.card-body {
+    background-color: rgba(0,0,0,.03);
+}
+
+.comment-author {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.comment-form {
+    padding: 10px 0 10px 0;
+}
+
+.comment-header {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.comment-reply-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.comment-error-message {
+    padding-bottom: 10px;
+    color: #dc3545;
+}
+
+.comment-success-message {
+    padding-bottom: 10px;
+    color: #28a745;
+    text-align: center;
+}
+
+.footer {
+    margin: 100px 0 5px 0;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.main-container {
+    margin-bottom: 100px;
+}
+
+.reply-form {
+    padding-left: 8px;
+    padding-right: 7px;
+}
+
+.reply-form-container {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.1);
+    /* From bootsrap */
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
